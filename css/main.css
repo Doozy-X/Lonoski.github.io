@@ -1,13 +1,6 @@
-.jumbotron {
-	background-image: linear-gradient(to bottom, #ffff00 0, #72ff92 100%);
-	margin-bottom: 0;
-	padding-top: 100px;
-}
+/*Main Page*/
 
-#main-logo {
-	width: 100%;
-}
-
+/*Navbar*/
 #navbar-logo {
 	height: 50px;
 	display: inline-block;
@@ -25,6 +18,18 @@
 	color: #d60a0a;
 }
 
+/*Jumbotron*/
+.jumbotron {
+	background-image: linear-gradient(to bottom, #ffff00 0, #72ff92 100%);
+	margin-bottom: 0;
+	padding-top: 100px;
+}
+
+#main-logo {
+	width: 100%;
+}
+
+/*Services*/
 #services {
 	margin: 0;
 	padding: 10px;
@@ -78,5 +83,28 @@ footer {
 	text-align: center;
 }
 
+/*Services*/
+/*text*/
+.services-container {
+	padding-top: 100px;
+}
+.imgService {
+	padding-top: 50px;
+	width: 100%;
+	height: 100%;
+}
 
+/*gallery*/
+.hide-bullets {
+	list-style:none;
+	margin-left: -40px;
+	margin-top:20px;
+}
 
+.thumbnail {
+	padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+}
