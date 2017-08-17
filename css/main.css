@@ -36,6 +36,7 @@
 /*Jumbotron*/
 .jumbotron {
 	/*	background-image: linear-gradient(to bottom, #ffff00 0, #72ff92 100%);*/
+	background-color: white;
 	margin-bottom: 0;
 	padding-top: 100px;
 }
