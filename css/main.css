@@ -1,6 +1,12 @@
 /*Main Page*/
 
 /*Navbar*/
+.navbar-header {
+	margin: 0 auto !important;
+	float: none !important;
+	display: table !important;
+}
+
 #navbar-logo {
 	height: 50px;
 	display: inline-block;
@@ -10,8 +16,17 @@
 	font-size: 50px;
 }
 
+.navbar-brand:hover{
+	color: #000000!important;
+}
+
 .navbar {
 	height: 80px;
+}
+
+.navbar-inverse {
+	border-color: rgb(255, 255, 255)!important;
+	background: rgb(255, 253, 244) linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 100%) repeat-x!important;
 }
 
 .navbar-inverse .navbar-brand {
@@ -20,7 +35,7 @@
 
 /*Jumbotron*/
 .jumbotron {
-	background-image: linear-gradient(to bottom, #ffff00 0, #72ff92 100%);
+	/*	background-image: linear-gradient(to bottom, #ffff00 0, #72ff92 100%);*/
 	margin-bottom: 0;
 	padding-top: 100px;
 }
@@ -33,9 +48,9 @@
 #services {
 	margin: 0;
 	padding: 10px;
-	background-color: #73ff91;
+	/*	background-color: #73ff91;*/
 	text-align: center;
-	font-size:50px;
+	font-size: 50px;
 }
 
 #row-images {
@@ -79,7 +94,7 @@
 }
 
 footer {
-	font-size:large;
+	font-size: large;
 	text-align: center;
 }
 
@@ -88,6 +103,7 @@ footer {
 .services-container {
 	padding-top: 50px;
 }
+
 .imgService {
 	padding-top: 50px;
 	width: 100%;
@@ -96,15 +112,15 @@ footer {
 
 /*gallery*/
 .hide-bullets {
-	list-style:none;
+	list-style: none;
 	margin-left: -40px;
-	margin-top:20px;
+	margin-top: 20px;
 }
 
 .thumbnail {
 	padding: 0;
 }
 
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
 	width: 100%;
 }
