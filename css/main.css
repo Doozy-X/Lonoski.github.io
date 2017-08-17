@@ -1,5 +1,5 @@
 /*Main Page*/
-
+@font-face { font-family: Futuris; src: url('/fonts/futuris.TTF'); }
 /*Navbar*/
 .navbar-header {
 	margin: 0 auto !important;
@@ -31,6 +31,9 @@
 
 .navbar-inverse .navbar-brand {
 	color: #d60a0a;
+	text-transform: uppercase;
+	font-family: Futuris, sans-serif;
+	font-weight: bold;
 }
 
 /*Jumbotron*/
