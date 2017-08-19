@@ -109,21 +109,22 @@
 	font-style: italic;
 	color: white;
 	transition: all .2s ease-in-out;
-	font-size: 7vh;
+	font-size: 8vh;
 	position: absolute;
 	left: 23%;
-	top: 1%;
+	top: -300%;
 	text-shadow: 2px 2px 4px #000000;
 	z-index: 3;
 	pointer-events: none;
 }
 
-
+.imgTextTwo {
+	top: -500%;
+}
 .hr {
 	border: 0;
 	height: 1px;
-	background: #333;
-	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	background: #333 linear-gradient(to right, #ccc, #333, #ccc);
 }
 
 footer {
