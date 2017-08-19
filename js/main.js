@@ -21,8 +21,8 @@ jQuery(document).ready(function($) {
 	});
 
 	$('.img3').hover(function () {
-/*		$(this).css({"transform": "scale(1.2)"},{"filter" : "blur(0px)"}, {"	z-index": "3"})*/
+	$(this).next().css({"transform": "scale(1.2)"})
 	},function () {
-		// $(this).css({"transform": "scale(1)"},{"filter" : "blur(4px)"}, {"	z-index": "2"})
+		$(this).next().css({"transform": "scale(1)"})
 	})
 });
