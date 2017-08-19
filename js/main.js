@@ -19,4 +19,10 @@ jQuery(document).ready(function($) {
 		var id = $('.item.active').data('slide-number');
 		$('#carousel-text').html($('#slide-content-'+id).html());
 	});
+
+	$('.img3').hover(function () {
+/*		$(this).css({"transform": "scale(1.2)"},{"filter" : "blur(0px)"}, {"	z-index": "3"})*/
+	},function () {
+		// $(this).css({"transform": "scale(1)"},{"filter" : "blur(4px)"}, {"	z-index": "2"})
+	})
 });

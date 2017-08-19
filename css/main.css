@@ -89,7 +89,6 @@
 	transform: scale(1.2);
 	cursor: pointer;
 	z-index: 2;
-
 }
 
 
@@ -111,12 +110,13 @@
 	font-style: italic;
 	color: white;
 
-	font-size: 70px;
+	font-size: 5vh;
 	position: absolute;
 	left: 23%;
 	top: 10px;
 	z-index: 3;
 }
+
 
 .hr {
 	border: 0;
