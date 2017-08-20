@@ -112,14 +112,14 @@
 	font-size: 8vh;
 	position: absolute;
 	left: 23%;
-	top: -300%;
+	top: -5vh;
 	text-shadow: 2px 2px 4px #000000;
 	z-index: 3;
 	pointer-events: none;
 }
 
 .imgTextTwo {
-	top: -500%;
+	top: -11vh;
 }
 .hr {
 	border: 0;
