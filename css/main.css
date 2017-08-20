@@ -4,6 +4,10 @@
 	src: url('/fonts/futuris.TTF');
 }
 
+body {
+	padding-top: 0;
+}
+
 /*Navbar*/
 .navbar-fixed-top {
 	position: relative !important;
@@ -49,7 +53,6 @@
 	/*	background-image: linear-gradient(to bottom, #ffff00 0, #72ff92 100%);*/
 	background-color: white;
 	margin-bottom: 0;
-	padding-top: 10px;
 }
 
 #main-logo {
