@@ -115,10 +115,12 @@
 	top: -5vh;
 	text-shadow: 2px 2px 4px #000000;
 	z-index: 3;
+	text-align: center;
 	pointer-events: none;
 }
 
 .imgTextTwo {
+	text-align: center;
 	top: -11vh;
 }
 .hr {
