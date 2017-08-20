@@ -53,10 +53,13 @@ body {
 	/*	background-image: linear-gradient(to bottom, #ffff00 0, #72ff92 100%);*/
 	background-color: white;
 	margin-bottom: 0;
+	padding-top: 2vh;
 }
 
 #main-logo {
-	width: 100%;
+	width: 90vh;
+	margin: 0 auto;
+	height: 20vh;
 }
 
 /*Services*/
