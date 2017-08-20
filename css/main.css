@@ -111,7 +111,7 @@
 	transition: all .2s ease-in-out;
 	font-size: 8vh;
 	position: absolute;
-	left: 23%;
+	left: 12vh;
 	top: -5vh;
 	text-shadow: 2px 2px 4px #000000;
 	z-index: 3;
@@ -120,6 +120,7 @@
 }
 
 .imgTextTwo {
+	left: 2vh;
 	text-align: center;
 	top: -11vh;
 }
