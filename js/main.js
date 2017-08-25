@@ -25,4 +25,10 @@ jQuery(document).ready(function($) {
 	},function () {
 		$(this).next().css({"transform": "scale(1)"})
 	})
+
+	$("#scroll-services").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#row-images").offset().top
+		}, 2000);
+	});
 });
