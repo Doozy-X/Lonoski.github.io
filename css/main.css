@@ -10,14 +10,19 @@ body {
 }
 
 /*Navbar*/
-.navbar-fixed-top {
-	position: relative !important;
+#main-logo {
+	margin: 0 auto;
+	width: auto;
+	height: 18vh;
 }
 
-.navbar-header {
-	margin: 0 auto !important;
-	float: none !important;
-	display: table !important;
+.container1 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background: url("../img/navbarLine.png") no-repeat center top;
+	background-size: 100%;
+	padding: 5px;
 }
 
 #navbar-logo {
@@ -34,13 +39,17 @@ body {
 }
 
 .navbar {
-	margin-top: 3%;
-	height: 80px;
+	margin-top: 1%;
+	position: static;
+	background: white;
+	width: 100%;
+	border: none;
 }
 
-.navbar-inverse {
-	border-color: rgb(255, 255, 255) !important;
-	background: rgb(255, 253, 244) linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 100%) repeat-x !important;
+#navbar {
+	display: flex!important;
+	justify-content: center;
+	align-items: center;
 }
 
 .navbar-inverse .navbar-brand {
@@ -48,27 +57,31 @@ body {
 	text-transform: uppercase;
 	font-family: Futuris, sans-serif;
 	font-weight: bold;
+
 }
 
 .navbar-links {
-	-moz-box-shadow: 0px 0px 0px 0px #3dc21b;
-	-webkit-box-shadow: 0px 0px 0px 0px #3dc21b;
-	box-shadow: 0px 0px 0px 0px #3dc21b;
+	-moz-box-shadow: #3dc21b;
+	-webkit-box-shadow: #3dc21b;
+	box-shadow: #3dc21b;
 	background-color: transparent;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
-	border-radius: 3px;
-	border: 3px solid #000000;
-	border-top: 0;
 	display: inline-block;
 	cursor: pointer;
 	color: #000000;
-	font-family: Futuris;
+	text-transform: uppercase;
+	font-family: Futuris, sans-serif;
 	font-size: 28px;
 	font-weight: bold;
-	padding: 16px 53px;
 	text-decoration: none;
-	text-shadow: 0px 1px 0px #2f6627;
+	text-shadow: 0 1px 0 #2f6627;
+	padding: 10px;
+}
+
+.navbar-links:hover {
+	color: #D60A0A;
+	text-decoration: none;
 }
 
 .myButton:hover {
@@ -76,8 +89,16 @@ body {
 }
 
 .myButton:active {
-	position: relative;
 	top: 5px;
+}
+
+.navbar-right {
+	padding-left: 15vh;
+}
+
+
+.carousel-inner {
+	height: 50vh;
 }
 
 /*Jumbotron*/
@@ -88,17 +109,12 @@ body {
 	padding-top: 2vh;
 }
 
-#main-logo {
-	margin: 0 auto;
-	width: 90vh;
-	height: auto;
-}
 
 /*Services*/
-#services {
+h1 {
 	margin: 0;
 	padding: 10px;
-	/*	background-color: #73ff91;*/
+	margin-bottom: 5vh;
 	text-align: center;
 	font-size: 50px;
 }
@@ -111,7 +127,7 @@ body {
 
 .img3 {
 	position: relative;
-	width: 33.3333%;
+	width: 33%;
 	height: 50vh;
 	display: inline-block;
 	margin-right: auto;
@@ -143,7 +159,6 @@ body {
 .imgText {
 	font-family: "Arial Narrow", serif;
 	font-weight: bold;
-	font-style: italic;
 	color: white;
 	transition: all .2s ease-in-out;
 	font-size: 8vh;
@@ -161,6 +176,25 @@ body {
 	text-align: center;
 	top: -11vh;
 }
+
+.partnerImages {
+	margin: 0 auto;
+}
+
+.partnersImg {
+	display: inline-block;
+	width: 30%;
+	height: 100px;
+	padding: 10px;
+	transition: all .2s ease-in-out;
+}
+.partnersImg:hover {
+	filter: blur(0px);
+	transform: scale(1.2);
+	cursor: pointer;
+	z-index: 2;
+}
+
 
 .hr {
 	border: 0;
@@ -206,10 +240,11 @@ footer {
 }
 
 #contact {
+	vertical-align: top;
 	background: #F9F9F9;
 	padding: 25px;
-	margin: 0 auto;
-	width: 50%;
+	width: 60%;
+	display: inline-block;
 }
 
 #contact h3 {
@@ -296,3 +331,13 @@ fieldset {
 :-ms-input-placeholder {
 	color: #888;
 }
+#info {
+	display: inline-block;
+	width: 35%;
+}
+
+#map {
+	height: 400px;
+	width: auto;
+}
+

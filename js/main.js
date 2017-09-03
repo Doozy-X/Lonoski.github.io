@@ -24,7 +24,13 @@ jQuery(document).ready(function($) {
 	$(this).next().css({"transform": "scale(1.2)"})
 	},function () {
 		$(this).next().css({"transform": "scale(1)"})
-	})
+	});
+
+	$('.partnersImg').hover(function () {
+		$(this).next().css({"transform": "scale(1.2)"})
+	},function () {
+		$(this).next().css({"transform": "scale(1)"})
+	});
 
 	$("#scroll-services").click(function() {
 		$('html, body').animate({
@@ -32,3 +38,4 @@ jQuery(document).ready(function($) {
 		}, 2000);
 	});
 });
+
