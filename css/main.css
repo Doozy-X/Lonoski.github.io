@@ -21,7 +21,7 @@ body {
 	display: flex;
 	justify-content: center;
 	background: url("../img/navbarLine.png") no-repeat center top;
-	background-size: 100%;
+	background-size: cover;
 	padding: 5px;
 }
 
