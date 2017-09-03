@@ -144,16 +144,8 @@ h1 {
 	z-index: 2;
 }
 
-.leftImg {
-	position: relative;
-}
-
-.middleImg {
-	position: relative;
-}
-
-.rightImg {
-	position: relative;
+.imgEnlarge {
+	position: relative!important;
 }
 
 .imgText {
@@ -182,11 +174,15 @@ h1 {
 }
 
 .partnersImg {
+	position: relative;
+	width: 33%;
+	height: 10vh;
 	display: inline-block;
-	width: 30%;
-	height: 100px;
-	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
 	transition: all .2s ease-in-out;
+	filter: blur(5px);
+	z-index: 1;
 }
 .partnersImg:hover {
 	filter: blur(0px);
