@@ -20,8 +20,7 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	background: url("../img/navbarLine.png") no-repeat center top;
-	background-size: cover;
+
 	padding: 5px;
 }
 
@@ -44,6 +43,8 @@ body {
 	background: white;
 	width: 100%;
 	border: none;
+	background: url("../img/navbarLine.png") no-repeat center top;
+	background-size: 100% 100%;
 }
 
 #navbar {
