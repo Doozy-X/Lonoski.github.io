@@ -12,7 +12,7 @@ body {
 /*Navbar*/
 #main-logo {
 	margin: 0 auto;
-	width: 40em;
+	width: 30em;
 	height: auto;
 }
 
@@ -23,7 +23,7 @@ body {
 	background: white;
 	width: 100%;
 	border: none;
-	background: url("../img/navbarLine.png") no-repeat center top;
+	background: url("../img/navbarLine.png") top center no-repeat;
 	background-size: 100% 100%;
 }
 
@@ -34,8 +34,8 @@ body {
 .navbar-right {
 	position: absolute;
 	top: 50%;
-	right: -20%;
-	transform: translate(-50%,-50%);
+	right: 0;
+	transform: translate(0,-50%);
 }
 
 .navbar-links {
@@ -50,7 +50,7 @@ body {
 	color: #000000;
 	text-transform: uppercase;
 	font-family: Futuris, sans-serif;
-	font-size: xx-large;
+	font-size: 2em;
 	font-weight: bold;
 	text-decoration: none;
 	text-shadow: 0 1px 0 #2f6627;
