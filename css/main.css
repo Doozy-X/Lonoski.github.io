@@ -12,49 +12,30 @@ body {
 /*Navbar*/
 #main-logo {
 	margin: 0 auto;
-	width: auto;
-	height: 18vh;
+	width: 40em;
+	height: auto;
 }
 
-.container1 {
-	width: 100%;
-
-
-	padding: 5px;
-}
-
-#navbar-logo {
-	height: 50px;
-	display: none;
-}
-
-.navbar-brand {
-	font-size: 50px;
-}
-
-.navbar-brand:hover {
-	color: #000000 !important;
-}
 
 .navbar {
 	margin-top: 1%;
 	position: static;
 	background: white;
-	display: flex;
-	justify-content: center;
 	width: 100%;
 	border: none;
 	background: url("../img/navbarLine.png") no-repeat center top;
 	background-size: 100% 100%;
 }
 
+.container1 {
+	position: relative;
+}
 
-.navbar-inverse .navbar-brand {
-	color: #d60a0a;
-	text-transform: uppercase;
-	font-family: Futuris, sans-serif;
-	font-weight: bold;
-
+.navbar-right {
+	position: absolute;
+	top: 50%;
+	right: -20%;
+	transform: translate(-50%,-50%);
 }
 
 .navbar-links {
@@ -69,7 +50,7 @@ body {
 	color: #000000;
 	text-transform: uppercase;
 	font-family: Futuris, sans-serif;
-	font-size: 28px;
+	font-size: xx-large;
 	font-weight: bold;
 	text-decoration: none;
 	text-shadow: 0 1px 0 #2f6627;
