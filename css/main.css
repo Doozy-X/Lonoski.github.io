@@ -18,8 +18,7 @@ body {
 
 .container1 {
 	width: 100%;
-	display: flex;
-	justify-content: center;
+
 
 	padding: 5px;
 }
@@ -41,17 +40,14 @@ body {
 	margin-top: 1%;
 	position: static;
 	background: white;
+	display: flex;
+	justify-content: center;
 	width: 100%;
 	border: none;
 	background: url("../img/navbarLine.png") no-repeat center top;
 	background-size: 100% 100%;
 }
 
-#navbar {
-	display: flex!important;
-	justify-content: center;
-	align-items: center;
-}
 
 .navbar-inverse .navbar-brand {
 	color: #d60a0a;
@@ -92,11 +88,6 @@ body {
 .myButton:active {
 	top: 5px;
 }
-
-.navbar-right {
-	padding-left: 15vh;
-}
-
 
 .carousel-inner {
 	height: 50vh;
@@ -156,8 +147,8 @@ h1 {
 	transition: all .2s ease-in-out;
 	font-size: 8vh;
 	position: absolute;
-	left: 12vh;
-	top: -5vh;
+	left: 1em;
+	top: -0.7em;
 	text-shadow: 2px 2px 4px #000000;
 	z-index: 3;
 	text-align: center;
@@ -165,9 +156,9 @@ h1 {
 }
 
 .imgTextTwo {
-	left: 2vh;
+	left: 0.5em;
 	text-align: center;
-	top: -11vh;
+	top: -1.5em;
 }
 
 .partnerImages {
