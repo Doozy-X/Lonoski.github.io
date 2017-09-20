@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 /*Main Page*/
 @font-face {
 	font-family: Futuris;
@@ -12,7 +11,7 @@ body {
 /*Navbar*/
 #main-logo {
 	margin: 0 auto;
-	width: 53%;
+	width: 52%;
 	height: auto;
 }
 
@@ -84,9 +83,8 @@ body {
 
 /*Services*/
 h1 {
-	margin: 0;
 	padding: 10px;
-	margin-bottom: 5vh;
+	margin: 0 0 5vh;
 	text-align: center;
 	font-size: 50px;
 }
@@ -361,7 +359,11 @@ fieldset {
 .carousel-caption h3,
 .carousel .icon-container,
 .carousel-caption button {
-	background-color: #cc2500;
+	background: rgba(255, 0, 0, 0.4)
+}
+
+.btn:hover {
+	background: black;
 }
 .carousel-caption h3 {
 	padding: .5em;
@@ -388,6 +390,13 @@ fieldset {
 }
 .carousel-caption button {
 	animation-delay: 3s;
+}
+
+.carousel-caption {
+	text-shadow: 0 2px 0 #000000 !important;
+	right: 70%;
+	left: 10%;
+	bottom: 10%;
 }
 
 h1 {
