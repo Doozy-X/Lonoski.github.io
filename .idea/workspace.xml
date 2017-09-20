@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35b1c88d-3a85-4922-a5d6-664377c33e53" name="Default" comment="Update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/references.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/LogoWithTextNoYears.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/LogoWithText.png" afterPath="$PROJECT_DIR$/img/LogoWithText.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cover1.jpg" afterPath="$PROJECT_DIR$/img/cover1.jpg" />
+    <list default="true" id="35b1c88d-3a85-4922-a5d6-664377c33e53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service1.html" afterPath="$PROJECT_DIR$/service1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service2.html" afterPath="$PROJECT_DIR$/service2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service3.html" afterPath="$PROJECT_DIR$/service3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.html" afterPath="$PROJECT_DIR$/services.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+            <state relative-caret-position="640">
+              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding>
                 <marker date="1505912587510" expanded="true" signature="1077:1227" ph="..." />
                 <marker date="1505912587510" expanded="true" signature="1170:1195" ph="..." />
@@ -132,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="395" column="44" lean-forward="false" selection-start-line="395" selection-start-column="44" selection-end-line="395" selection-end-column="44" />
+            <state relative-caret-position="289">
+              <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -153,7 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nabar navbar</find>
       <find>nabar navbar-</find>
       <find>nabar navbar-i</find>
       <find>nabar navbar-infe</find>
@@ -183,6 +172,7 @@
       <find>carousel-caption</find>
       <find>font</find>
       <find>shadow</find>
+      <find>vh</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;nav class=&quot;navbar navbar-inverse navbar-fixed-top&quot; role=&quot;navigation&quot;&gt;	&lt;div class=&quot;container1 container&quot;&gt;		&lt;a class=&quot;navbar-header&quot; href=&quot;index.html&quot;&gt;			&lt;img src=&quot;img/LogoWithText.png&quot; id=&quot;main-logo&quot;&gt;			&lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-right&quot;			        aria-expanded=&quot;false&quot; aria-controls=&quot;navbar&quot;&gt;				&lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;				&lt;span class=&quot;icon-bar&quot;&gt;References&lt;/span&gt;				&lt;span class=&quot;icon-bar&quot;&gt;Contact&lt;/span&gt;				&lt;span class=&quot;icon-bar&quot;&gt;Services&lt;/span&gt;			&lt;/button&gt;		&lt;/a&gt;		&lt;div class=&quot;navbar-form navbar-right&quot;&gt;			&lt;a class=&quot;navbar-links&quot; href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;			&lt;a class=&quot;navbar-links&quot; href=&quot;services.html&quot;&gt;Services&lt;/a&gt;			&lt;a class=&quot;navbar-links&quot; href=&quot;contact.html&quot;&gt;References&lt;/a&gt;		&lt;/div&gt;	&lt;/div&gt;&lt;/nav&gt;</replace>
@@ -407,7 +397,7 @@
       <workItem from="1504948638401" duration="4539000" />
       <workItem from="1505044849125" duration="2404000" />
       <workItem from="1505554063833" duration="18069000" />
-      <workItem from="1505911317459" duration="2518000" />
+      <workItem from="1505911317459" duration="3115000" />
     </task>
     <task id="LOCAL-00001" summary="Logo and Google Analytics">
       <created>1502897157284</created>
@@ -647,11 +637,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505591579444</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Update">
+      <created>1505913968053</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1505913968053</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97598000" />
+    <option name="totallyTimeSpent" value="98195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1123,14 +1120,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="45" column="59" lean-forward="false" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+        <state relative-caret-position="640">
+          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
-            <element signature="e#6146#6152#0" expanded="true" />
-            <marker date="1505912587470" expanded="true" signature="1504:1654" ph="..." />
-            <marker date="1505912587470" expanded="true" signature="1597:1622" ph="..." />
+            <marker date="1505912587510" expanded="true" signature="1077:1227" ph="..." />
+            <marker date="1505912587510" expanded="true" signature="1170:1195" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1143,22 +1139,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="395" column="44" lean-forward="false" selection-start-line="395" selection-start-column="44" selection-end-line="395" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="-153">
+          <caret line="45" column="59" lean-forward="false" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+          <folding>
+            <element signature="e#6146#6152#0" expanded="true" />
+            <marker date="1505912587470" expanded="true" signature="1504:1654" ph="..." />
+            <marker date="1505912587470" expanded="true" signature="1597:1622" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-          <folding>
-            <marker date="1505912587510" expanded="true" signature="1077:1227" ph="..." />
-            <marker date="1505912587510" expanded="true" signature="1170:1195" ph="..." />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

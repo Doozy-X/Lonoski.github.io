@@ -34,6 +34,7 @@ body {
 	position: absolute;
 	top: 50%;
 	right: 0;
+	left: 55%;
 	transform: translate(0, -50%);
 }
 
@@ -123,7 +124,7 @@ h1 {
 	font-weight: bold;
 	color: white;
 	transition: all .2s ease-in-out;
-	font-size: 8vh;
+	font-size: 5em;
 	position: absolute;
 	left: 1em;
 	top: -0.7em;
