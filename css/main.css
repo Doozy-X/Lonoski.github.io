@@ -50,7 +50,7 @@ body {
 	color: #000000;
 	text-transform: uppercase;
 	font-family: Futuris, sans-serif;
-	font-size: 1.5vw;
+	font-size: 2em;
 	font-weight: bold;
 	text-decoration: none;
 	text-shadow: 0 1px 0 #2f6627;
@@ -124,7 +124,7 @@ h1 {
 	font-weight: bold;
 	color: white;
 	transition: all .2s ease-in-out;
-	font-size: 5em;
+	font-size: 6em;
 	position: absolute;
 	left: 1em;
 	top: -0.7em;
@@ -360,7 +360,7 @@ fieldset {
 .carousel-caption h3,
 .carousel .icon-container,
 .carousel-caption button {
-	background: rgba(255, 0, 0, 0.4)
+	background: rgba(255, 0, 0, 0.6)
 }
 
 .btn:hover {
@@ -395,7 +395,7 @@ fieldset {
 
 .carousel-caption {
 	text-shadow: 0 2px 0 #000000 !important;
-	right: 70%;
+	right: 60%;
 	left: 10%;
 	bottom: 10%;
 }

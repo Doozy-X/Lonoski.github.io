@@ -240,5 +240,24 @@ $(document).ready(function ($) {
 // execute above function
 	initPhotoSwipeFromDOM('.my-gallery');
 
+
+	$('.img3').hover(function () {
+		$(this).next().css({"transform": "scale(1.2)"})
+	},function () {
+		$(this).next().css({"transform": "scale(1)"})
+	});
+
+	$('.partnersImg').hover(function () {
+		$(this).next().css({"transform": "scale(1.2)"})
+	},function () {
+		$(this).next().css({"transform": "scale(1)"})
+	});
+
+	$("#scroll-services").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#row-images").offset().top
+		}, 2000);
+	});
+
 });
 
