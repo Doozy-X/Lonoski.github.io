@@ -1,7 +1,7 @@
 /*Main Page*/
 @font-face {
-	font-family: Futuris;
-	src: url('../fonts/futuris.TTF');
+	font-family: 'Futuris';
+	src: url('../fonts/futuris.ttf') format('ttf');
 }
 
 body {
@@ -68,10 +68,6 @@ body {
 
 .myButton:active {
 	top: 5px;
-}
-
-.carousel-inner {
-	height: 60vh;
 }
 
 /*Jumbotron*/
@@ -329,34 +325,36 @@ fieldset {
 	display: none;
 }
 
-
-.main-container {
-	padding: 10px 15px;
-}
-.skyblue {
-	background: url("../img/cover2.jpg") center top no-repeat;
-	background-size:100%;
-}
-.deepskyblue {
-	background: url("../img/cover3.jpg") center top no-repeat;
-	background-size:100%;
-}
-.darkerskyblue {
+.cover1 {
 	background: url("../img/cover1.jpg") center top no-repeat;
-	background-size:100%;
+	background-size: 100% 100%;
 }
+
+.cover2 {
+	background: url("../img/cover2.jpg") center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.cover3 {
+	background: url("../img/cover3.jpg") center top no-repeat;
+	background-size: 100% 100%;
+}
+
 .carousel-indicators {
 	bottom: 0;
 }
+
 .carousel-control.right,
 .carousel-control.left {
 	background-image: none;
 }
+
 .carousel .item {
-	min-height: 350px;
+	min-height: 60vh;
 	height: 100%;
-	width:100%;
+	width: 100%;
 }
+
 .carousel-caption h3,
 .carousel .icon-container,
 .carousel-caption button {
@@ -366,9 +364,11 @@ fieldset {
 .btn:hover {
 	background: black;
 }
+
 .carousel-caption h3 {
 	padding: .5em;
 }
+
 .carousel .icon-container {
 	display: inline-block;
 	font-size: 25px;
@@ -377,20 +377,23 @@ fieldset {
 	text-align: center;
 	border-radius: 50%;
 }
+
 .carousel-caption button {
 	border-color: #ff0f00;
-	margin-top: 1em;
+	margin-top: 0.3em;
 }
 
 /* Animation delays */
 .carousel-caption h3:first-child {
 	animation-delay: 1s;
 }
+
 .carousel-caption h3:nth-child(2) {
 	animation-delay: 2s;
 }
+
 .carousel-caption button {
-	animation-delay: 3s;
+	animation-delay: 2s;
 }
 
 .carousel-caption {
@@ -399,6 +402,18 @@ fieldset {
 	left: 10%;
 	bottom: 10%;
 	text-align: left;
+}
+
+.carousel-caption-left {
+	text-align: center;
+}
+
+h3 {
+	text-align: left;
+}
+
+.btn-little-left {
+	margin-left: 2em;
 }
 
 h1 {
