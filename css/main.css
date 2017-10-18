@@ -350,7 +350,7 @@ fieldset {
 }
 
 .carousel .item {
-	min-height: 60vh;
+	min-height: 50vh;
 	height: 100%;
 	width: 100%;
 }
@@ -367,6 +367,10 @@ fieldset {
 
 .carousel-caption h3 {
 	padding: .5em;
+}
+
+.main-container {
+
 }
 
 .carousel .icon-container {
@@ -401,7 +405,7 @@ fieldset {
 	right: 60%;
 	left: 10%;
 	bottom: 10%;
-	text-align: left;
+	text-align: center;
 }
 
 .carousel-caption-left {
@@ -410,10 +414,6 @@ fieldset {
 
 h3 {
 	text-align: left;
-}
-
-.btn-little-left {
-	margin-left: 2em;
 }
 
 h1 {
